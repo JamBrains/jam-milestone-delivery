@@ -40,8 +40,8 @@ Kian Paimani, Francisco Aguirre and Oliver Tale-Yazdi
 
 | Number | Deliverable  | Link   | Notes |
 |--------|--------------|--------|-------|
-|1.	     | GrayMatter   | https://github.com/JamBrains/graymatter/commits/milestone-1-rc1 | Elixir Source Code (tag `milestone-1-rc1`) |
-|2.	     | Docker Image | `ghcr.io/jambrains/graymatter/gm@sha256:2cc37f1b8e0b88f47fe11b4dd717a19557331fec6457984ef4b0a1973dd9c27b` | M1 fuzzer image (sha256 `2cc37f1b8e0b88f47fe11b4dd717a19557331fec6457984ef4b0a1973dd9c27b`) |
+|1.	     | GrayMatter   | https://github.com/JamBrains/graymatter/commits/milestone-1-rc2 | Elixir Source Code (tag `milestone-1-rc2`) |
+|2.	     | Docker Image | `ghcr.io/jambrains/graymatter/gm@sha256:9899d71638b11db342e318500cc26c64018eb2df89534d6aeab50e6ae24592bf` | M1 fuzzer image (sha256 `9899d71638b11db342e318500cc26c64018eb2df89534d6aeab50e6ae24592bf`) |
 
 ## Additional Information
 
@@ -51,3 +51,11 @@ We remarked our master commit hashes to the *Polkadot Collectives* chain from th
 
 **Prize Account**  
 You can find our prize payout account in the RAEDME file to be `15R1pWegyu7AfMev8DBMT67qxYoJhA1v7BbA2nn7S2uJ5QDF`.
+
+### Changelog
+
+**2026-03-26**
+- [STF] Fix header sig validation
+- [STF] Check extrinsic hash
+- [STF] Fix extrinsic hash calculation
+- [STF] Ticket attempt index to use compact
